@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34931.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA_TCMB_Doviz_Kuru", "WFA_TCMB_Doviz_Kuru\WFA_TCMB_Doviz_Kuru.csproj", "{8AA62682-B1D6-473B-B65D-8873633B93ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{709BFB95-E173-451F-A659-53C3FA4EAAE9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		NEWVERSION = NEWVERSION
+		README.md = README.md
+		SHA256 = SHA256
+		SHA256_x64 = SHA256_x64
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateManager", "UpdateManager\UpdateManager.csproj", "{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WFA_TCMB_Doviz_Kuru.x86.Setup", "WFA_TCMB_Doviz_Kuru.x86.Setup\WFA_TCMB_Doviz_Kuru.x86.Setup.vdproj", "{F817E162-4DCB-4105-9C1C-A538F18D12A0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WFA_TCMB_Doviz_Kuru.x64.Setup", "WFA_TCMB_Doviz_Kuru.x64.Setup\WFA_TCMB_Doviz_Kuru.x64.Setup.vdproj", "{55F909B9-3B4D-4C55-8F50-06ABD2CE348F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Debug|x64.ActiveCfg = Debug|x64
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Debug|x64.Build.0 = Debug|x64
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Release|x64.ActiveCfg = Release|x64
+		{8AA62682-B1D6-473B-B65D-8873633B93ED}.Release|x64.Build.0 = Release|x64
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Debug|x64.ActiveCfg = Debug|x64
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Debug|x64.Build.0 = Debug|x64
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Release|x64.ActiveCfg = Release|x64
+		{2A2C7A23-60E4-4CC8-BD84-8E3A46565953}.Release|x64.Build.0 = Release|x64
+		{F817E162-4DCB-4105-9C1C-A538F18D12A0}.Debug|Any CPU.ActiveCfg = Debug
+		{F817E162-4DCB-4105-9C1C-A538F18D12A0}.Debug|x64.ActiveCfg = Debug
+		{F817E162-4DCB-4105-9C1C-A538F18D12A0}.Release|Any CPU.ActiveCfg = Release
+		{F817E162-4DCB-4105-9C1C-A538F18D12A0}.Release|x64.ActiveCfg = Release
+		{55F909B9-3B4D-4C55-8F50-06ABD2CE348F}.Debug|Any CPU.ActiveCfg = Debug
+		{55F909B9-3B4D-4C55-8F50-06ABD2CE348F}.Debug|x64.ActiveCfg = Debug
+		{55F909B9-3B4D-4C55-8F50-06ABD2CE348F}.Release|Any CPU.ActiveCfg = Release
+		{55F909B9-3B4D-4C55-8F50-06ABD2CE348F}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F444720-08A6-43FF-88FA-6DD3024EE871}
+	EndGlobalSection
+EndGlobal

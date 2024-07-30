@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AED" xml:space="preserve">
+    <value>BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Tutar:</value>
+  </data>
+  <data name="ATS" xml:space="preserve">
+    <value>AVUSTURYA ŞİLİNİ</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="AUD" xml:space="preserve">
+    <value>AVUSTRALYA DOLARI</value>
+  </data>
+  <data name="AZN" xml:space="preserve">
+    <value>AZERBAYCAN YENİ MANATI</value>
+  </data>
+  <data name="BanknoteBuying" xml:space="preserve">
+    <value>Efektif Alış</value>
+  </data>
+  <data name="BanknoteSelling" xml:space="preserve">
+    <value>Efektif Satış</value>
+  </data>
+  <data name="BEF" xml:space="preserve">
+    <value>BELÇİKA FRANGI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="BGL" xml:space="preserve">
+    <value>BULGAR LEVASI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="BGN" xml:space="preserve">
+    <value>BULGAR LEVASI</value>
+  </data>
+  <data name="CAD" xml:space="preserve">
+    <value>KANADA DOLARI</value>
+  </data>
+  <data name="CHF" xml:space="preserve">
+    <value>İSVİÇRE FRANGI</value>
+  </data>
+  <data name="CNY" xml:space="preserve">
+    <value>ÇİN YUANI</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Dönüştür</value>
+  </data>
+  <data name="CrossRateOther" xml:space="preserve">
+    <value>Çapraz Kur Diğer</value>
+  </data>
+  <data name="CrossRateUSD" xml:space="preserve">
+    <value>Çapraz Kur USD</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>Para Birimi Kodu</value>
+  </data>
+  <data name="CurrencyName" xml:space="preserve">
+    <value>Para Birimi Adı</value>
+  </data>
+  <data name="CurrencyNameEnglish" xml:space="preserve">
+    <value>Para Birimi Adı (İngilizce)</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tarih:</value>
+  </data>
+  <data name="DateAWeekend" xml:space="preserve">
+    <value>Tarih hafta sonu veya resmi tatil olabilir!</value>
+  </data>
+  <data name="DEM" xml:space="preserve">
+    <value>ALMAN MARKI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="DKK" xml:space="preserve">
+    <value>DANİMARKA KRONU</value>
+  </data>
+  <data name="ECU" xml:space="preserve">
+    <value>AVRUPA PARA BİRİMİ (ECU)</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="ESP" xml:space="preserve">
+    <value>İSPANYOL PEZETASI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="EUR" xml:space="preserve">
+    <value>EURO</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Çık</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="FIM" xml:space="preserve">
+    <value>FİN MARKKASI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="ForexBuying" xml:space="preserve">
+    <value>Döviz Alış</value>
+  </data>
+  <data name="ForexSelling" xml:space="preserve">
+    <value>Döviz Satış</value>
+  </data>
+  <data name="FRF" xml:space="preserve">
+    <value>FRANSIZ FRANGI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Kaynak Para Birimi:</value>
+  </data>
+  <data name="FYP" xml:space="preserve">
+    <value>SURIYE LİRASI</value>
+  </data>
+  <data name="GBP" xml:space="preserve">
+    <value>İNGİLİZ STERLİNİ</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Git</value>
+  </data>
+  <data name="GRD" xml:space="preserve">
+    <value>YUNAN DRAHMİSİ</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="IEP" xml:space="preserve">
+    <value>İRLANDA LİRASI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="ILS" xml:space="preserve">
+    <value>YENİ ISRAIL ŞEKELİ</value>
+  </data>
+  <data name="IRR" xml:space="preserve">
+    <value>İRAN RİYALİ</value>
+  </data>
+  <data name="ITL" xml:space="preserve">
+    <value>İTALYAN LİRASI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="JOD" xml:space="preserve">
+    <value>ÜRDÜN DİNARI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="JPY" xml:space="preserve">
+    <value>JAPON YENİ</value>
+  </data>
+  <data name="KRW" xml:space="preserve">
+    <value>GÜNEY KORE WONU</value>
+  </data>
+  <data name="KWD" xml:space="preserve">
+    <value>KUVEYT DİNARI</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil:</value>
+  </data>
+  <data name="LUF" xml:space="preserve">
+    <value>LÜKSEMBURG FRANGI</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="NewsletterNo" xml:space="preserve">
+    <value>Bülten No:</value>
+  </data>
+  <data name="NLG" xml:space="preserve">
+    <value>HOLLANDA FLORİNİ</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="NOK" xml:space="preserve">
+    <value>NORVEÇ KRONU</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="OpenUpdateManager" xml:space="preserve">
+    <value>&amp;Güncelleme Yöneticisini Aç</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="PKR" xml:space="preserve">
+    <value>PAKİSTAN RUPİSİ</value>
+  </data>
+  <data name="PTE" xml:space="preserve">
+    <value>PORTEKİZ ESKUDOSU</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="QAR" xml:space="preserve">
+    <value>KATAR RİYALİ</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="ROL" xml:space="preserve">
+    <value>RUMEN LEYİ</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="RON" xml:space="preserve">
+    <value>RUMEN LEYİ</value>
+  </data>
+  <data name="RUB" xml:space="preserve">
+    <value>RUS RUBLESİ</value>
+  </data>
+  <data name="SAR" xml:space="preserve">
+    <value>SUUDİ ARABİSTAN RİYALİ</value>
+  </data>
+  <data name="SEK" xml:space="preserve">
+    <value>İSVEÇ KRONU</value>
+  </data>
+  <data name="SpecifiedAWeekend" xml:space="preserve">
+    <value>Belirtilen tarih hafta sonu.</value>
+  </data>
+  <data name="SwitchCurrency" xml:space="preserve">
+    <value>Para Birimini Değiştir</value>
+  </data>
+  <data name="SYP" xml:space="preserve">
+    <value>SURIYE LİRASI</value>
+  </data>
+  <data name="TCMB" xml:space="preserve">
+    <value>Türkiye Cumhuriyet Merkez Bankası - Döviz Kuru</value>
+  </data>
+  <data name="TCMB_Warning" xml:space="preserve">
+    <value>15:30 Tarihinde</value>
+  </data>
+  <data name="TCMB_Warning2" xml:space="preserve">
+    <value>Belirlenen Gösterge Niteliğindeki Türkiye Cumhuriyet Merkez Bankası Kurları</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>İstenilen Para Birimi:</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Birim</value>
+  </data>
+  <data name="USD" xml:space="preserve">
+    <value>ABD DOLARI</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="XDR" xml:space="preserve">
+    <value>ÖZEL ÇEKME HAKKI (SDR)</value>
+  </data>
+</root>

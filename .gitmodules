@@ -1,0 +1,3 @@
+[submodule "UpdateManager"]
+	path = UpdateManager
+	url = https://github.com/firatlogoglu/UpdateManager.git

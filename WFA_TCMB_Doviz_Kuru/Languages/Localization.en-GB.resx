@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AED" xml:space="preserve">
+    <value>UNITED ARAB EMIRATES DIRHAM</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount:</value>
+  </data>
+  <data name="ATS" xml:space="preserve">
+    <value>AUSTRIAN SCHILLING</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="AUD" xml:space="preserve">
+    <value>AUSTRALIAN DOLLAR</value>
+  </data>
+  <data name="AZN" xml:space="preserve">
+    <value>AZERBAIJANI NEW MANAT</value>
+  </data>
+  <data name="BanknoteBuying" xml:space="preserve">
+    <value>Banknote Buying</value>
+  </data>
+  <data name="BanknoteSelling" xml:space="preserve">
+    <value>Banknote Selling</value>
+  </data>
+  <data name="BEF" xml:space="preserve">
+    <value>BELGIAN FRANC</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="BGL" xml:space="preserve">
+    <value>BULGARIAN LEV</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="BGN" xml:space="preserve">
+    <value>BULGARIAN LEV</value>
+  </data>
+  <data name="CAD" xml:space="preserve">
+    <value>CANADIAN DOLLAR</value>
+  </data>
+  <data name="CHF" xml:space="preserve">
+    <value>SWISS FRANC</value>
+  </data>
+  <data name="CNY" xml:space="preserve">
+    <value>CHINESE RENMINBI</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="CrossRateOther" xml:space="preserve">
+    <value>Cross Rate Other</value>
+  </data>
+  <data name="CrossRateUSD" xml:space="preserve">
+    <value>Cross Rate USD</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>Currency Code</value>
+  </data>
+  <data name="CurrencyName" xml:space="preserve">
+    <value>Currency Name</value>
+  </data>
+  <data name="CurrencyNameEnglish" xml:space="preserve">
+    <value>Currency Name (English)</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="DateAWeekend" xml:space="preserve">
+    <value>The date may be a weekend or a public holiday!</value>
+  </data>
+  <data name="DEM" xml:space="preserve">
+    <value>GERMAN MARK</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="DKK" xml:space="preserve">
+    <value>DANISH KRONE</value>
+  </data>
+  <data name="ECU" xml:space="preserve">
+    <value>EUROPEAN CURRENCY UNIT</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="ESP" xml:space="preserve">
+    <value>SPANISH PESETA</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="EUR" xml:space="preserve">
+    <value>EURO</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FIM" xml:space="preserve">
+    <value>FINNISH MARKKA</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="ForexBuying" xml:space="preserve">
+    <value>Forex Buying</value>
+  </data>
+  <data name="ForexSelling" xml:space="preserve">
+    <value>Forex Selling</value>
+  </data>
+  <data name="FRF" xml:space="preserve">
+    <value>FRENCH FRANC</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="FYP" xml:space="preserve">
+    <value>SYRIAN POUND (LIRA)</value>
+  </data>
+  <data name="GBP" xml:space="preserve">
+    <value>POUND STERLING</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="GRD" xml:space="preserve">
+    <value>GREEK DRACHMA</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="IEP" xml:space="preserve">
+    <value>IRISH POUND</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="ILS" xml:space="preserve">
+    <value>NEW ISRAELI SHEKEL</value>
+  </data>
+  <data name="IRR" xml:space="preserve">
+    <value>IRANIAN RIAL</value>
+  </data>
+  <data name="ITL" xml:space="preserve">
+    <value>ITALIAN LIRA</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="JOD" xml:space="preserve">
+    <value>JORDANIAN DINAR</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="JPY" xml:space="preserve">
+    <value>JAPANESE YEN</value>
+  </data>
+  <data name="KRW" xml:space="preserve">
+    <value>SOUTH KOREAN WON</value>
+  </data>
+  <data name="KWD" xml:space="preserve">
+    <value>KUWAITI DINAR</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="LUF" xml:space="preserve">
+    <value>LUXEMBOURG FRANC</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="NewsletterNo" xml:space="preserve">
+    <value>Newsletter No:</value>
+  </data>
+  <data name="NLG" xml:space="preserve">
+    <value>NETHERLANDS GUILDER</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="NOK" xml:space="preserve">
+    <value>NORWEGIAN KRONE</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenUpdateManager" xml:space="preserve">
+    <value>&amp;Open Update Manager</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="PKR" xml:space="preserve">
+    <value>PAKISTANI RUPEE</value>
+  </data>
+  <data name="PTE" xml:space="preserve">
+    <value>PORTUGUESE ESCUDO</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="QAR" xml:space="preserve">
+    <value>QATARI RIYAL</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="ROL" xml:space="preserve">
+    <value>ROMANIAN LEU</value>
+    <comment>OLD</comment>
+  </data>
+  <data name="RON" xml:space="preserve">
+    <value>ROMANIAN LEU</value>
+  </data>
+  <data name="RUB" xml:space="preserve">
+    <value>RUSSIAN ROUBLE</value>
+  </data>
+  <data name="SAR" xml:space="preserve">
+    <value>SAUDI RIYAL</value>
+  </data>
+  <data name="SEK" xml:space="preserve">
+    <value>SWEDISH KRONA</value>
+  </data>
+  <data name="SpecifiedAWeekend" xml:space="preserve">
+    <value>The specified date is a weekend.</value>
+  </data>
+  <data name="SwitchCurrency" xml:space="preserve">
+    <value>Switch Currency</value>
+  </data>
+  <data name="SYP" xml:space="preserve">
+    <value>SYRIAN POUND (LIRA)</value>
+  </data>
+  <data name="TCMB" xml:space="preserve">
+    <value>Central Bank of the Republic of Turkey - Foreign Exchange Rate</value>
+  </data>
+  <data name="TCMB_Warning" xml:space="preserve">
+    <value>Indicative Exchange Rates Announced at 15:30 on</value>
+  </data>
+  <data name="TCMB_Warning2" xml:space="preserve">
+    <value>by the Central Bank of Türkiye</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="USD" xml:space="preserve">
+    <value>US DOLLAR</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="XDR" xml:space="preserve">
+    <value>SPECIAL DRAWING RIGHT (SDR)</value>
+  </data>
+</root>
